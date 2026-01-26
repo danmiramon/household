@@ -12,6 +12,7 @@ const isDevelopment = process.env.NODE_ENV !== "production";
 const PORT = process.env.PORT || 4000;
 const PROTOCOL = process.env.PROTOCOL || isDevelopment ? "http" : "https";
 let server;
+console.log(PORT);
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, "..");
@@ -40,7 +41,7 @@ if (isDevelopment) {
   app.use(express.static(path.join(projectRoot, "build/client")));
   app.use(
     createRequestHandler({
-      build: await import("./build/server/index.js"),
+      build: await import("../build/server/index.js"),
     }),
   );
   server = PROTOCOL === "https" ? https.createServer({}, app) : http.createServer(app);
