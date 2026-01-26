@@ -19,6 +19,7 @@
       "subapps/*": ["./app/subapps/*"],
       "utils/*": ["./app/utils/*"],
       "constants/*": ["./app/constants/*"],
+      "assets/*": ["./app/assets/*"]
     },
     "esModuleInterop": true,
     "verbatimModuleSyntax": true,
