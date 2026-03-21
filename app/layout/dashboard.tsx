@@ -6,7 +6,7 @@ function Dashboard({ children }: { children: React.ReactNode }) {
       defaultSidebarCollapsed
       sidebarExpandedWidth={320}
     >
-      <PageContainer className="!px-12 !m-0">
+      <PageContainer className="px-12! m-0!">
         {children}
       </PageContainer>
     </DashboardLayout>

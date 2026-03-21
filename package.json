@@ -4,8 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "react-router build",
-    "dev": "node ./server/server.js",
-    "dev:rr": "react-router dev",
+    "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc"
   },
@@ -14,13 +13,9 @@
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.7",
     "@mui/material": "^7.3.7",
-    "@react-router/express": "7.12.0",
     "@react-router/node": "7.12.0",
     "@react-router/serve": "7.12.0",
     "@toolpad/core": "^0.16.0",
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "express": "^5.2.1",
     "isbot": "^5.1.31",
     "lodash": "^4.17.23",
     "react": "^19.2.3",
@@ -30,8 +25,6 @@
   "devDependencies": {
     "@react-router/dev": "7.12.0",
     "@tailwindcss/vite": "^4.1.13",
-    "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.6",
     "@types/lodash": "^4.17.23",
     "@types/node": "^22",
     "@types/react": "^19.2.7",
