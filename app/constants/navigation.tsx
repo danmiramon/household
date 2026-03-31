@@ -11,6 +11,7 @@ const BRANDING: Branding = {
 const NAVIGATION: Navigation = [
   {
     segment: "",
+    // title: i18n.t("common.home"),
     title: "Home",
     icon: <Home />,
   },

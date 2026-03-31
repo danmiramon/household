@@ -8,5 +8,7 @@ export default [
       index("subapps/budget/summary/index.tsx"),
       route("create", "subapps/budget/create/index.tsx"),
     ])
-  ])
+  ]),
+
+  route("api/locales/:lng/:ns", "routes/locales.ts"),
 ] satisfies RouteConfig;

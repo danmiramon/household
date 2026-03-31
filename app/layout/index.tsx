@@ -4,7 +4,7 @@ import { Outlet } from "react-router";
 import { ReactRouterAppProvider } from "@toolpad/core/react-router";
 import Dashboard from "./dashboard";
 import { createTheme } from "@mui/material/styles";
-import { BRANDING, NAVIGATION } from "constants/navigation"
+import { BRANDING, NAVIGATION } from "constants/navigation";
 
 
 export function meta({}: Route.MetaArgs) {

@@ -19,7 +19,9 @@
       "subapps/*": ["./app/subapps/*"],
       "utils/*": ["./app/utils/*"],
       "constants/*": ["./app/constants/*"],
-      "assets/*": ["./app/assets/*"]
+      "assets/*": ["./app/assets/*"],
+      "locales/*": ["./app/locales/*"],
+      "routes/*": ["./app/routes/*"],
     },
     "esModuleInterop": true,
     "verbatimModuleSyntax": true,
